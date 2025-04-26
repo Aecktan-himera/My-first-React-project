@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'calligrapher';
+  src: url('/fonts/calligrapher.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: calligrapher;
+  font-size: 24px;
+  color: rgb(87, 41, 15);
+  text-align: center;
+  
+}
+
+.container {
+  background-image: url('/images/book.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  max-width: 1600px;
+  height: 120vh;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.title {
+  color: red;
+  margin-left: 100px;
+  margin-top: 90px;
+  
+}
+
+.greet {
+  color: rgb(87, 41, 15);
+  margin-top: 90px;
+
+}
+
+.clock {
+  color: rgb(87, 41, 15);
+  text-align: center;
+}
+
+.toddpic {
+  width: 60%;
+  height: auto;
+}
+
+.btn {
+  width: 120px;
+  height: 60px;
+  background: goldenrod;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+  font-family: calligrapher;
+  font-size: 24px;
+  color: rgb(87, 41, 15);
+}
